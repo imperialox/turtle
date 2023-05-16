@@ -1,0 +1,14 @@
+
+
+
+<launch>
+
+<node name = "controleur" pkg = "tb3_projet_LAKHAL_MEZOUAR" type = "controleur" output = "screen" />
+<node name = "key_input_node" pkg = "tb3_projet_LAKHAL_MEZOUAR" type = "key_input_node" output = "screen" />
+<node name = "detector" pkg = "tb3_projet_LAKHAL_MEZOUAR" type = "detector" output = "screen" />
+
+
+
+
+</launch>
+ 
